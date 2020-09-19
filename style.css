@@ -1,0 +1,24 @@
+body {
+    background-color: mintcream;
+    text-align: justify;
+}
+
+h1, p {
+    color: darkcyan;
+    
+}
+
+h2 {
+    background-color: darkcyan;
+    color: mintcream;
+    font-family: 'Dancing Script', cursive;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: darkcyan;
+    
+}
