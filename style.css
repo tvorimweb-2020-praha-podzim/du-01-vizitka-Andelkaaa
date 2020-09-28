@@ -1,23 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
+    font-family: sans-serif;
     background-color: mintcream;
     text-align: justify;
-    line-height: 1.5;
+    line-height: 2;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
 }
 
 h1, p {
     color: darkcyan;    
 }
 
+p {
+    padding: 1rem;
+    text-align: left;
+}
+
 h2 {
     background-color: darkcyan;
     color: mintcream;
     font-family: 'Dancing Script', cursive;
+    padding: 0 1rem 0 1rem;
 }
 
 img {
-    width: 300px;
+    width: 170px;
+    height: auto;
+    border-radius: 15% 15% 15% 0;
+}
+
+main > img {
+    float: left;
+    margin: 1rem;
+}
+
+main {
+    display: flow-root;
 }
 
 a {
     color: darkcyan;
+}
+
+section {
+    padding: 1rem;
 }
