@@ -15,6 +15,7 @@ body {
 h1 {
     text-align: center;
     padding: 1rem;
+    color: darkcyan;
 }
 
 h1, p {
@@ -26,11 +27,29 @@ p {
     text-align: left;
 }
 
-h2 {
+nav {
     background-color: darkcyan;
+    padding: 14px 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+li {
+    display: inline;
+    padding: 1rem;
+}
+
+li a {
     color: mintcream;
+    padding: 14px 16px;
+    text-decoration: none;
     font-family: 'Dancing Script', cursive;
-    padding: 0 1rem 0 1rem;
+    font-size: 1.5rem;
 }
 
 img {
@@ -48,10 +67,32 @@ main {
     display: flow-root;
 }
 
-a {
-    color: darkcyan;
-}
-
 section {
     padding: 1rem;
+}
+
+a {
+    display: inline;
+    color: darkcyan;
+    line-height: 4rem;
+}
+
+.sec2 > a {
+    background-color: darkcyan;
+    color: mintcream;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+
+}
+
+.main_kontakt {
+    background-color: rgba(3, 134, 134, 0.205);
+    text-align: center;
+}
+
+.sec2 > p {
+    text-align: center;
+    margin: -0.5rem;
 }
