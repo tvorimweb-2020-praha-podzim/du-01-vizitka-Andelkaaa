@@ -14,12 +14,12 @@ body {
 
 h1 {
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
     color: darkcyan;
 }
 
 h1, p {
-    color: darkcyan;    
+    color: darkcyan;
 }
 
 p {
@@ -29,7 +29,7 @@ p {
 
 nav {
     background-color: darkcyan;
-    padding: 14px 16px;
+    padding: 5px 60px;
 }
 
 ul {
